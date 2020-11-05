@@ -1,5 +1,25 @@
 # @backstage/core
 
+## 0.2.1
+
+### Patch Changes
+
+- 7b37d65fd: Adds the MarkdownContent component to render and display Markdown content with the default
+  [GFM](https://github.github.com/gfm/) (Github flavored Markdown) dialect.
+
+  ```
+  <MarkdownContent content={markdownGithubFlavored} />
+  ```
+
+  To render the Markdown content with plain [CommonMark](https://commonmark.org/), set the dialect to `common-mark`
+
+  ```
+  <MarkdownContent content={markdown} dialect='common-mark />
+  ```
+
+- Updated dependencies [c5bab94ab]
+  - @backstage/core-api@0.2.1
+
 ## 0.2.0
 
 ### Minor Changes
