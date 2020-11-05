@@ -1,5 +1,13 @@
 # @backstage/plugin-api-docs
 
+## 0.2.1
+
+### Patch Changes
+
+- 803527bd3: Upgrade @kyma-project/asyncapi-react to 0.14.2
+- Updated dependencies [7b37d65fd]
+  - @backstage/core@0.2.1
+
 ## 0.2.0
 
 ### Minor Changes
